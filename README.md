@@ -63,7 +63,7 @@ A typical module split for this repository is:
 - `uart_rx` – RS-232 / UART receiver
 - `uart_tx` – RS-232 / UART transmitter
 - `top` – top-level module connecting RX, the adder, and TX
-- `tb_top` / `tb_uart_*` – simulation testbench(s)
+- `tb_top` – simulation testbench
 
 Processing flow:
 1. The receiver detects the start bit.
